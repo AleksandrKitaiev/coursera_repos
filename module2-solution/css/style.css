@@ -1,0 +1,84 @@
+/**********BASE STYLES**************/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: #000429;
+	font-size: 18px;
+	font-family: Avantgarde, "TeX Gyre Adventor", "URW Gothic L", sans-serif;
+}
+
+/***STYLES FOR DESKTOP (LARGE SIZED SCREEN)***/
+@media (min-width: 768px) and (max-width: 991px){
+	.col-md-6, .col-md-12{
+		float: left;
+	}
+	.col-md-6{
+		width: 50%;
+	}
+	.col-md-12{
+		width: 100%;
+	}
+}
+
+/***STYLES FOR TABLET (MEDIUM SIZED SCREEN)***/
+@media (min-width: 992px){
+	.col-lg-4{
+		float: left;
+		width: 33.33%;
+	}
+}
+
+/***TITLES***/
+h1{
+	text-align: center;
+	font-size: 1.75rem;
+	margin: 4% 0 5%;
+}
+h2{
+	position: absolute;
+	right: 0;
+	font-size: 1.25rem;
+	padding: 5px 60px;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+}
+#title_1{
+	background-color: #6bb3ff;
+	color: #00052e;
+}
+#title_2{
+	background-color: #edff69;
+	color: #293000;
+}
+#title_3{
+	background-color: #71ff6b;
+	color: #012400;
+}
+
+/***GRID STYLE***/
+.container{
+	min-width: 312px;
+	width: 100%;
+	padding: 0 30px;
+}
+.row{
+	position: relative;
+	width: 100%;
+	margin-bottom: 10px;
+}
+section{
+	padding: 0 20px 20px;
+}
+
+/***STYLE FOR MENU***/
+.menu-section{
+	position: relative;
+	background-color: #ccffda;
+	border: 1px solid black;
+}
+.menu-section-content{
+	padding-top: 30px;
+	margin: 10px 15px;
+	clear: right;
+}
